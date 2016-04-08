@@ -1,39 +1,58 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" href="index1.css"/>
-		<title>Google</title>
-	</head>
-	<body>
-		<div id="navbar">
-			<ul>
-				<li><a href="#" class="signin">Sign-In</a></li>
-				<li>Apps</li>
-				<li>Images</li>
-				<li><a href="https://mail.google.com/mail/u/0/?tab=wm">Gmail</a></li>
-			</ul>
-		</div>
-			<!--Google Image and search below-->
-				<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
-			<form action="#" method="POST" name="search_form">
-				<input type="text" name="search"><br>
-				<input type="submit" value="Google Search">
-				<input type="submit" value="I'm Feeling Lucky">
-			</form>
-			<!--End of image and search-->
-		<div id="footerleft">
-			<ul>
-				<li><a href="#">Advertising</a></li>
-				<li><a href="#">Business</a></li>
-				<li><a href="#">About</a></li>
-			</ul>
-		</div>
-		<div id="footerright">
-			<ul>
-				<li><a href="#">Settings</a></li>
-				<li><a href="#">Terms</a></li>
-				<li><a href="#">Privacy</a></li>
-			</ul>
-		</div>
-	</body>
-</html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Google</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+  <div id="header">
+    <ul>
+      <li><a href="#">+You</a></li>
+      <li><a href="#">Gmail</a></li>
+      <li><a href="#">Images</a></li>
+      <!-- <li><a href="#"><img src="images/menu.png" /></li> -->
+      <li><a href="#" class="sign_in">Sign in</a></li>
+    </ul>
+  </div>
+
+
+
+
+  <div id="center">
+    <img id ="logo" src="images/Google.png"/>
+    
+    <div>
+      <form action="#" method="post">
+      <input type="text" class="search_box" />
+    </div>
+    
+    <div class="search_buttons">
+      <button class="search_button"><a href="#">Google Search</a></button>
+      <button class="search_button"><a href="#">I'm Feeling Lucky</a></button>
+    </div>
+    </form>
+  </div>
+
+  <div id ="footer">
+    <div class="left_footer">
+      <ul>
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">About</a></li>
+      </ul>   
+    </div>
+    
+    <div class="right_footer">
+      <ul>
+        <li><a href="#">Privacy & Terms</a></li>
+        <li><a href="#">Settings</a></li>         
+        <li><a href="#">Google.com</a></li>
+      </ul> 
+    </div>  
+  </div>
+    
+</body>
+</html> 
