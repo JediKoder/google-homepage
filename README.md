@@ -1,4 +1,3 @@
-
 # First ODIN
 
 Recreate Google Homepage

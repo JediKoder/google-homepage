@@ -1,0 +1,86 @@
+#navbar {
+	position:relative;
+	right:17px;
+	top:12px;
+}
+
+#navbar ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	
+}
+
+#navbar li {
+	float:right;
+	padding:5px 12px 0px 10px;
+}
+
+.signin  {
+	height:22px;
+	text-align:center;
+	background-color:#4bacdb;
+	border-radius:10%;
+	color:white;
+	padding:8px 17px;
+	text-decoration:none;
+}
+
+img {
+	position:relative;
+	display:block;
+	margin:auto;
+	clear:both;
+	top:163px;
+	
+}
+
+input[type=text] {
+	margin:auto;
+	display:block;
+	position:relative;
+	top:193px;
+	width:42%;
+	padding:10px;
+	border:1px solid #dbdbdb;
+}
+
+input[type=submit] {
+	position:relative;
+	top:200px;
+	left:525px;
+	margin:0px 10px;
+	
+}
+
+#footerleft {
+	position:fixed;
+	bottom:0;
+	margin-bottom:10px;
+}
+
+#footerright {
+	position:fixed;
+	bottom:0;
+	right:0;
+	margin-bottom:10px;
+}
+
+#footerleft ul, #footerright ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+ #footerleft li {
+	 float:left;
+	 margin:0px 15px;
+ }
+
+#footerright li {
+	float:right;
+	margin:0px 15px;
+}
+
+#footerleft a, #footerright a {
+	text-decoration:none;
+}
